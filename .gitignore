@@ -1,0 +1,14 @@
+node_modules
+.next
+out
+dist
+.env*.local
+.env
+data/*.sqlite
+data/*.sqlite-*
+npm-debug.log*
+.DS_Store
+
+data/*.json
+data/*.json.tmp
+data/*.broken-*

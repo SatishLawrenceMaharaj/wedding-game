@@ -1,0 +1,25 @@
+{
+  "name": "wedding-games-app",
+  "version": "1.1.0",
+  "private": true,
+  "description": "A self-contained wedding mini-games app with no external storage integrations.",
+  "scripts": {
+    "dev": "next dev -p 3097",
+    "build": "next build",
+    "start": "next start -p 3097",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "next": "^16.0.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "eslint": "^9.25.0",
+    "eslint-config-next": "^16.0.0",
+    "typescript": "^5.8.3"
+  }
+}

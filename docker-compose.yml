@@ -1,0 +1,18 @@
+services:
+  wedding-games:
+    build: .
+    container_name: wedding-games
+    ports:
+      - "3097:3097"
+    environment:
+      BRIDE_NAME: "Tyla"
+      GROOM_NAME: "Satish"
+      COUPLE_DISPLAY_NAME: "Tyla & Satish"
+      HOST_PIN: "1234"
+      DB_PATH: "/app/data/wedding-games.json"
+    volumes:
+      - wedding-game-data:/app/data
+    restart: unless-stopped
+
+volumes:
+  wedding-game-data:
